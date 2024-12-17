@@ -8,10 +8,10 @@ public class OrdemServicoFactory {
             classe = Class.forName("bridge_factory_method.OrdemServico" + ordemServico);
             objeto = classe.newInstance();
         } catch (Exception ex) {
-            throw new IllegalArgumentException("Ordem de Serviço inexistente");
+            throw new IllegalArgumentException("Ordem de serviço inexistente");
         }
         if (!(objeto instanceof OrdemServico)) {
-            throw new IllegalArgumentException("Ordem de Serviço inválido");
+            throw new IllegalArgumentException("Ordem de serviço inválido");
         }
         return (OrdemServico) objeto;
     }
