@@ -4,9 +4,7 @@ import singleton.Servico;
 public abstract class OrdemServico {
     protected Servico servico;
     protected int quantDias;
-
-    public OrdemServico(int quantDias) {
-        this.quantDias = quantDias;
+    public OrdemServico() {
     }
 
     public void setQuantDias(int quantDias) {

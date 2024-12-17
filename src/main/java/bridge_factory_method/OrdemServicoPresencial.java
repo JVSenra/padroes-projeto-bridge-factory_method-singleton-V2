@@ -1,9 +1,6 @@
 package bridge_factory_method;
 
 public class OrdemServicoPresencial extends OrdemServico{
-    public OrdemServicoPresencial(int quantDias) {
-        super(quantDias);
-    }
 
     @Override
     public float calcularCusto() {
